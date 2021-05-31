@@ -1,0 +1,11 @@
+driver: frac.o driver.o
+	g++ -o driver frac.o driver.o
+
+frac.o: frac.cpp frac.h
+	g++ -c frac.cpp
+
+driver.o: driver.cpp frac.h
+	g++ -c driver.cpp
+
+clean:
+	rm -f *.o driver
