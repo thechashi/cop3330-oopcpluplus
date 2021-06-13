@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/chashi/Desktop/Summer 21/TA COP 3330/cop3330-oopcpluplus/Assignment 2/DateAssignment/main.cpp
+iostream
+-
+
