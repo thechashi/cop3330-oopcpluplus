@@ -5,9 +5,16 @@ using namespace std;
 
 enum Genre {FICTION, MYSTERY, SCIFI, COMPUTER};
 int main() {
-    int array[5];
+    int x = 5;
+    int * p = &x;
 
-    cout << array[5] << endl;
+    cout << p <<endl;
+
+    cout << *p << endl;
+
+    cout << p +1 << endl;
+
+    cout << *(p+1) << endl;
 
 
 }
