@@ -1,0 +1,11 @@
+timer: main.o timer.o
+	g++ -o timer main.o timer.o
+
+main.o: main.cpp timer.h
+	g++ -o main.o -c main.cpp
+
+timer.o: timer.cpp timer.h
+	g++ -o timer.o -c timer.cpp
+
+clean:
+	rm -f *.o timer
